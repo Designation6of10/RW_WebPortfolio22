@@ -1,5 +1,6 @@
 body {
     margin:0px;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .navWrapper {
@@ -30,4 +31,9 @@ ul.nav li a {
   	text-align: center;
   	padding: 14px 16px;
   	text-decoration: none;
+}
+
+ul.nav li a:hover {
+	background-color: #3eb2ed;
+	color: #333;
 }
