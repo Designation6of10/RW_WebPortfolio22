@@ -8,6 +8,6 @@ body {
     text-align: center;
 }
 
-.listHorz {
+.listHorz div{
     display: inline-block;
 }
