@@ -8,6 +8,7 @@ body {
     color:white;
 }
 
+
 .centered {
     text-align: center;
     vertical-align: middle;
@@ -17,15 +18,16 @@ body {
     height: 100vh;
     width: 100vw;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    
+    flex-direction: column;
 }
 
 .listHorz{
     display: table;
     list-style: none;
-    padding: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
     height: max-content;
 }
 
@@ -40,4 +42,8 @@ body {
     height: 100%;
     display: block;
     margin: auto;
+}
+
+h1.bookmark {
+    transform:translate(200%,0)
 }
