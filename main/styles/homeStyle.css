@@ -25,13 +25,14 @@ body {
 .listHorz{
     display: table;
     list-style: none;
-    padding: 30px;
+    padding: 15%;
     height: max-content;
 }
 
 .listHorz div{
     float: left;
     width: 50%;
+    font-size: 3vh;
 }
 
 .listHorz img {
