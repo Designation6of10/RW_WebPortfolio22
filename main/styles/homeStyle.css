@@ -1,3 +1,7 @@
+html {
+    width: 100vw;
+}
+
 body {
     background-color: #4b4b4b;
     font-family: 'Roboto Condensed', sans-serif;
@@ -6,8 +10,33 @@ body {
 
 .centered {
     text-align: center;
+    vertical-align: middle;
+}
+
+.screenContainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.listHorz{
+    display: table;
+    list-style: none;
+    padding: 30px;
+    height: max-content;
 }
 
 .listHorz div{
-    display: inline-block;
+    float: left;
+    width: 50%;
+}
+
+.listHorz img {
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: auto;
 }
