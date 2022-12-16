@@ -3,88 +3,120 @@
 	
 	<head>
 		<title>Home</title>
-		<script src="./main/scripts/js/carousel.js"></script>
 		<div class="navWrapper">
 			
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link
 			href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap"
 			rel="stylesheet">
-		<link rel="stylesheet" href="./main/styles/nav.css">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-		<ul class="nav">
-			<li><a href="#home">Home</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="#projects">Projects</a></li>
-		</ul>
-	</div>
-
-	<link rel="stylesheet" href="./main/styles/homeStyle.css">
-</head>
-
-<body>
-	<a name="home"></a>
-	<div class="screenContainer flex" style="align-items:center;">
-		<div class="centered">
-			<img src="./main/resources/img/pfp.png" style="width:20%;">
-			<h1>Richard Way</h1>
-			<h2>Student, Developer, Gamer.</h2>
+			<link rel="stylesheet" href="./main/styles/nav.css">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			
+			<ul class="nav">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+			</ul>
 		</div>
-	</div>
-	<a name="about"></a>
-	<div class="screenContainer flex">
-		<div>
-			<h1 class="bookmark">About Me:</h1>
-		</div>
-		<ul class="listHorz">
-			<li>
-				<div>Greetings! My name is Richard Way. I am a student studying Digital Media Arts at the University of
-					Montana in Missoula. I've been involved in numerous personal projects throughout my life, ranging
-					from experiments in games to small-scale game server hosting and development, and have only recently
-					been completing projects in a formal academic setting. I've dabbled in modding, server hosting,
-					application development, graphic and UI design, digital art, and even music creation. I have a
-					passion for digital art of all kinds, and am looking forward to sharing my experience with you!
-				</div>
-			</li>
-			<li>
-				<div><img src="./main/resources/img/aboutMeRaw.jpg"></div>
-			</li>
-		</ul>
-		<a name="projects"></a>
-	</div>
-	<div></div>
+		
+		<link rel="stylesheet" href="./main/styles/homeStyle.css">
+	</head>
 	
-	<div class="screenContainer">
-		<div>
-			<h1 class="bookmark">My Projects:</h1>
-		</div>
-		<div class="carouselContainer">
-			<h2>Academic Projects:</h2>
-			<div class="carouselItem">
-				<!--Header-->
-				<!--Image-->
-				<!--Hover Text (I.E. "Visit Repository", "Visit demo", etc.)-->
-				<!--Footer-->
+	<body>
+		<a name="home"></a>
+		<div class="screenContainer flex">
+			<div class="centered">
+				<img src="./main/resources/img/pfp.png" style="width:20%;">
+				<h1>Richard Way</h1>
+				<h2>Student, Developer, Gamer.</h2>
 			</div>
 		</div>
+		<a name="about"></a>
+		<div class="screenContainer flex">
+			<div>
+				<h1 class="bookmark">About Me:</h1>
+			</div>
+			<ul class="listHorz">
+				<li>
+					<div>Greetings! My name is Richard Way. I am a student studying Digital Media Arts at the University of
+						Montana in Missoula. I've been involved in numerous personal projects throughout my life, ranging
+						from experiments in games to small-scale game server hosting and development, and have only recently
+						been completing projects in a formal academic setting. I've dabbled in modding, server hosting,
+						application development, graphic and UI design, digital art, and even music creation. I have a
+						passion for digital art of all kinds, and am looking forward to sharing my experience with you!
+					</div>
+				</li>
+				<li>
+					<div><img src="./main/resources/img/aboutMeRaw.jpg"></div>
+				</li>
+			</ul>
+			<a name="projects"></a>
+		</div>
+		<div></div>
+		
+		<div class="screenContainer">
+			<div>
+				<h1 class="bookmark">My Projects:</h1>
+			</div>
+			<div class="carouselContainer">
+				<h2 class="centered">Academic Projects:</h2>
+				<div class="carouselItem1 fade">
+					<a href="https://scratch.mit.edu/projects/777850878" target="_blank">
+						<div class="itemHeader">Simple Character Concept (Scratch MIT)</div>
+						<img class="itemImage" src="./main/resources/img/Scratch1.PNG">
+						<div class="itemHover">Click to visit project page.</div>
+						<div class="itemFooter">A simple character animation and sprite concept for a potential upcoming project. Made in Scratch for MART 120 at UMT Missoula.</div>
+					</a>
+				</div>
+				<div class="carouselItem1 fade">
+					<a href="https://studio.code.org/projects/applab/7gd8yVZi2zrt-aKDw5q81YuW0fdwQ1rU2idpMhS3a1U" target="_blank">
+						<div class="itemHeader">"Hiragana Hero" Teaching App Concept (AppLab)</div>
+						<img class="itemImage" src="./main/resources/img/appLab.PNG">
+						<div class="itemHover">Click to visit project page.</div>
+						<div class="itemFooter">An application concept for a Japanese Alphabet teaching game. Made in AppLab for MART 120 at UMT Missoula.</div>
+					</a>
+				</div>
+				<div class="carouselItem1 fade">
+					<a href="https://github.com/Designation6of10/MART120/tree/main/Homework%208" target="_blank">
+						<div class="itemHeader">First "Website" Assignment (GitHub)</div>
+						<img class="itemImage" src="./main/resources/img/firstPage.PNG">
+						<div class="itemHover">Click to visit project page.</div>
+						<div class="itemFooter">First webpage designed under the instruction of my professor. Part of MART 120 at UMT Missoula.</div>
+					</a>
+				</div>
+				<a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+			</div>
+			<div class="carouselContainer">
 
-</div>
+			</div>
+			<div class="carouselContainer">
 
-</body>
-
-</html>
-
-
-<!--
-	Page layout:
+			</div>
+			
+		</div>
+		
+		<script src="./main/scripts/js/carousel.js"></script>
+	</body>
+	<footer>
+		<div class="centered">
+			<h2>Contact Me:</h2><br />
+			
+		</div>
+	</footer>
 	
-	<h1>Richard Way</h1>
-	<h2>Student, Developer, Gamer.</h2>
-
-	(Scroll down 1 screen)
-
-	About Me: Greetings! My name is Richard Way. I am a student studying Digital Media Arts at the University of Montana in Missoula.
+	</html>
+	
+	
+	<!--
+		Page layout:
+		
+		<h1>Richard Way</h1>
+		<h2>Student, Developer, Gamer.</h2>
+		
+		(Scroll down 1 screen)
+		
+		About Me: Greetings! My name is Richard Way. I am a student studying Digital Media Arts at the University of Montana in Missoula.
 	I've been involved in numerous personal projects throughout my life, ranging from experiments in games to small-scale game server
 	hosting and development, and have only recently been completing projects in a formal academic setting. I've dabbled in modding,
 	server hosting, application development, graphic and UI design, digital art, and even music creation. I have a passion for digital
@@ -105,8 +137,5 @@
 
 	Contact Me: Email (temporarily sixoften2@gmail.com until custom domain is created), Indeed.com Profile
 	Find me on social media: Twitter, Facebook, Discord
-
-
-	PUSH ME, BATMAN!!!
 
 -->
