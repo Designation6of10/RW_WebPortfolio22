@@ -17,6 +17,9 @@ body {
 .screenContainer {
     height: 100vh;
     width: 100vw;
+}
+
+.flex {
     display: flex;
     align-items: flex-start;
     justify-content: center;
